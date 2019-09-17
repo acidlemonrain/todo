@@ -86,6 +86,11 @@
   resolved "https://registry.npm.taobao.org/@types/events/download/@types/events-3.0.0.tgz?cache=0&sync_timestamp=1567532284800&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fevents%2Fdownload%2F%40types%2Fevents-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha1-KGLz9Yqaf3w+eNefEw3U1xwlwqc=
 
+"@types/faker@^4.1.5":
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@types/faker/-/faker-4.1.5.tgz#8f620f9c9a67150aa0a32b4e8a407da43fca61d4"
+  integrity sha512-YSDqoBEWYGdNk53xSkkb6REaUaVSlIjxIAGjj/nbLzlZOit7kUU+nA2zC2qQkIVO4MQ+3zl4Sz7aw+kbpHHHUQ==
+
 "@types/glob@^7.1.1":
   version "7.1.1"
   resolved "https://registry.npm.taobao.org/@types/glob/download/@types/glob-7.1.1.tgz?cache=0&sync_timestamp=1567532885668&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fglob%2Fdownload%2F%40types%2Fglob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
@@ -94,6 +99,11 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/lodash@^4.14.138":
+  version "4.14.138"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
+  integrity sha512-A4uJgHz4hakwNBdHNPdxOTkYmXNgmUAKLbXZ7PKGslgeV0Mb8P3BlbYfPovExek1qnod4pDfRbxuzcVs3dlFLg==
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -937,6 +947,11 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.npm.taobao.org/builtin-status-codes/download/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
+bulma@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
+  integrity sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/bytes/download/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -1424,7 +1439,7 @@ copy-webpack-plugin@^4.6.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.4.0:
+core-js@^2.4.0, core-js@^2.5.3:
   version "2.6.9"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha1-a0shRiDINBUuF5Mjcn/Bl0GwhPI=
@@ -2333,6 +2348,11 @@ extsprintf@^1.2.0:
   resolved "https://registry.npm.taobao.org/extsprintf/download/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
+faker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
+  integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
+
 fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/fast-deep-equal/download/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
@@ -2446,6 +2466,11 @@ find-up@^3.0.0:
   integrity sha1-SRafHXmTQwZG2mHsxa41XCHJe3M=
   dependencies:
     locate-path "^3.0.0"
+
+flatpickr@^4.6.1:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.2.tgz#50e1b4fc84fbf67c5b0919ba3ddc330221f126da"
+  integrity sha512-bRfBPyxohUQWgCTg6jPALUO1t/x+sRJ/S/RVti/NzYvHqGRpCAesKSWKLzOuLmpu+vGHfXBld4SXvOCLFgYb+g==
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -6550,6 +6575,20 @@ vue-class-component@^7.0.1, vue-class-component@^7.0.2:
   version "7.1.0"
   resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha1-sz78sQ4XI21oT3Cx6W8ZRux5Poc=
+
+vue-drag-drop@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/vue-drag-drop/-/vue-drag-drop-1.1.4.tgz#6e94aeb10304b91d651614b7307d0b90f0227e89"
+  integrity sha512-zrpvKcD5LPVbht7cJ7ZBY0poS8GDLibRck18Zx0polkoSSpTPNMAv/m/b98xtZ3I1jdWGyiPybfPgKFFkygjhQ==
+  dependencies:
+    core-js "^2.5.3"
+
+vue-flatpickr-component@^8.1.3:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/vue-flatpickr-component/-/vue-flatpickr-component-8.1.3.tgz#65279cfc4910504dbc726dcfc14700d27045bd18"
+  integrity sha512-x12gR2c+qbtvERjYzsxjIs1hcZASnii6ULfkHWrBG/eY1JcclsOIsxeukWYgXLmb7q0k6T2szsFwDBN98WiKnQ==
+  dependencies:
+    flatpickr "^4.6.1"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
